@@ -1,15 +1,39 @@
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Local/OS Files
+*.log
+.DS_Store
+
+# Android Studio generated files and folders
 *.iml
-.gradle
-/local.properties
+.gradle/
+/build
+/captures
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ / Android Studio configuration
+.idea/
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files (VERY IMPORTANT to ignore)
+*.jks
+*.keystore
+
+# Sensitive files (Ensure these are ignored)
+google-services.json
+
+# Android Profiling
+*.hprof
