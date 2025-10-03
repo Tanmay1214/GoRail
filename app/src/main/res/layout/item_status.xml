@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp">
+
+    <!-- Station Code -->
+    <TextView
+        android:id="@+id/tvStationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="RPZ" />
+
+    <!-- Distance -->
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStationCode"
+        tools:text="5 km" />
+
+    <!-- Timeline Dot -->
+    <View
+        android:id="@+id/viewDot"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="@+id/tvStationCode"
+        app:layout_constraintStart_toEndOf="@+id/tvStationCode"
+        app:layout_constraintTop_toTopOf="@+id/tvStationCode" />
+
+    <!-- Timeline Line Top -->
+    <View
+        android:id="@+id/viewLineTop"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:background="#E0E0E0"
+        app:layout_constraintBottom_toTopOf="@+id/viewDot"
+        app:layout_constraintEnd_toEndOf="@+id/viewDot"
+        app:layout_constraintStart_toStartOf="@+id/viewDot"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Timeline Line Bottom -->
+    <View
+        android:id="@+id/viewLineBottom"
+        android:layout_width="8dp"
+        android:layout_height="0dp"
+        android:background="#E0E0E0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/viewDot"
+        app:layout_constraintStart_toStartOf="@+id/viewDot"
+        app:layout_constraintTop_toBottomOf="@+id/viewDot" />
+
+    <!-- Station Name -->
+    <TextView
+        android:id="@+id/tvStationName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvDelayStatus"
+        app:layout_constraintStart_toEndOf="@+id/viewDot"
+        app:layout_constraintTop_toTopOf="@+id/tvStationCode"
+        tools:text="Ranapratapnagar" />
+
+    <!-- Station Type (Source/Destination) -->
+    <TextView
+        android:id="@+id/tvStationType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#4CAF50"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/viewDot"
+        app:layout_constraintTop_toBottomOf="@+id/tvStationName"
+        tools:text="Source" />
+
+    <!-- Arrival Time Container -->
+    <LinearLayout
+        android:id="@+id/layoutArrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/viewDot"
+        app:layout_constraintTop_toBottomOf="@+id/tvStationType">
+
+        <!-- Scheduled Arrival -->
+        <TextView
+            android:id="@+id/tvScheduledArrival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E53935"
+            android:textSize="16sp"
+            tools:text="22:20" />
+
+        <!-- Actual Arrival -->
+        <TextView
+            android:id="@+id/tvActualArrival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            tools:text="22:17" />
+    </LinearLayout>
+
+    <!-- Departure Time Container -->
+    <LinearLayout
+        android:id="@+id/layoutDeparture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/layoutArrival"
+        app:layout_constraintTop_toTopOf="@+id/layoutArrival">
+
+        <!-- Scheduled Departure -->
+        <TextView
+            android:id="@+id/tvScheduledDeparture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E53935"
+            android:textSize="16sp"
+            tools:text="22:22" />
+
+        <!-- Actual Departure -->
+        <TextView
+            android:id="@+id/tvActualDeparture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            tools:text="22:19" />
+    </LinearLayout>
+
+    <!-- Delay Status -->
+    <TextView
+        android:id="@+id/tvDelayStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:textColor="#E53935"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvStationName"
+        tools:text="3 m delay" />
+
+    <!-- Platform Info -->
+    <LinearLayout
+        android:id="@+id/layoutPlatform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/layoutArrival">
+
+        <!-- Platform Number -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivPlatformIcon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="4dp"
+                android:src="@drawable/pencil"
+                app:tint="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tvPlatformNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                tools:text="PF 01" />
+        </LinearLayout>
+
+        <!-- Stop Time -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivClockIcon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="4dp"
+                android:src="@drawable/ic_alarm"
+                app:tint="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvStopTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp"
+                tools:text="2m" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

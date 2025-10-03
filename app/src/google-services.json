@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "602590323565",
+    "firebase_url": "https://gorail1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "gorail1",
+    "storage_bucket": "gorail1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602590323565:android:7048c5732e6329ff56b064",
+        "android_client_info": {
+          "package_name": "com.example.gorail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602590323565-mq2mm1ucjki80hfsof9foj70it4kd2kf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gorail",
+            "certificate_hash": "cbb05892aaa211f0d636167b94c41ee02fbaf2c8"
+          }
+        },
+        {
+          "client_id": "602590323565-6f14fikddlrouo253bfi8ockj9fm6vie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQLDH2CPIS557dSBr_ITlj9BTvYIptX18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602590323565-6f14fikddlrouo253bfi8ockj9fm6vie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

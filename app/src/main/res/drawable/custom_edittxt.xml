@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- 🎨 Background respecting rounded corners -->
+    <solid android:color="@android:color/white" />
+
+    <!-- 🎯 Rounded corners for both stroke and background -->
+    <corners android:radius="20dp" />
+
+    <!-- 🖌 Stroke with matching rounded corners -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/colorAccent" /> <!-- Vibrant Orange #F5A623 if matching your theme -->
+</shape>

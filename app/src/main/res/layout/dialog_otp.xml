@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="26dp"
+    android:layout_margin="8dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="16dp" />
+
+    <!-- OTP Input Fields (6 Boxes) -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <!-- Repeat for 6 input boxes -->
+        <EditText
+            android:id="@+id/otp_box_1"
+            android:inputType="number"
+            android:textCursorDrawable="@null"
+            style="@style/OtpBoxStyle"/>
+
+        <EditText
+            android:id="@+id/otp_box_2"
+            android:textCursorDrawable="@null"
+            style="@style/OtpBoxStyle"
+            android:inputType="number"
+            android:layout_marginStart="8dp"/>
+
+        <EditText
+            android:id="@+id/otp_box_3"
+            android:textCursorDrawable="@null"
+            style="@style/OtpBoxStyle"
+            android:inputType="number"
+            android:layout_marginStart="8dp"/>
+
+
+
+        <EditText
+            android:id="@+id/otp_box_4"
+            style="@style/OtpBoxStyle"
+            android:inputType="number"
+            android:textCursorDrawable="@null"
+            android:layout_marginStart="8dp"/>
+
+        <EditText
+            android:id="@+id/otp_box_5"
+            style="@style/OtpBoxStyle"
+            android:inputType="number"
+            android:textCursorDrawable="@null"
+            android:layout_marginStart="8dp"/>
+
+        <EditText
+            android:id="@+id/otp_box_6"
+            style="@style/OtpBoxStyle"
+            android:inputType="number"
+            android:textCursorDrawable="@null"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/verify_otp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Submit OTP"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"/>
+</LinearLayout>

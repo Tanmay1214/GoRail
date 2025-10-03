@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#0C5C3F</color> <!-- Deep Green -->
+    <color name="colorPrimaryVariant">#0A4B33</color> <!-- Slightly darker green for status bar or emphasis -->
+    <color name="colorAccent">#F5A623</color> <!-- Vibrant Orange -->
+
+    <!-- Secondary Colors -->
+    <color name="colorBackground">#F7F7F7</color> <!-- Off-White Background -->
+    <color name="colorTextPrimary">#333333</color> <!-- Dark Charcoal for main text -->
+    <color name="colorHighlight">#FFD166</color> <!-- Muted Yellow for highlights -->
+
+    <!-- Additional Colors -->
+    <color name="colorButtonText">#FFFFFF</color> <!-- White text for buttons -->
+    <color name="colorDivider">#E0E0E0</color> <!-- Light gray for dividers -->
+    <color name="colorSurface">#FFFFFF</color><!-- Surface color for cards -->
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Shimmer Background Color (Light Grey) -->
+    <color name="shimmer_bg">#E0E0E0</color>
+
+    <!-- Shimmer Highlight Color (White Shade) -->
+    <color name="shimmer_highlight">#F5F5F5</color>
+    <color name="shimmer_placeholder">#E0E0E0</color>  <!-- Light Grey -->
+
+    <color name="curr_avbl_background">#F2F8EC</color>  <!-- Light Green -->
+    <color name="curr_avbl_text">#4B8B2B</color>       <!-- Dark Green -->
+    <color name="rac_background">#FFF4DC</color>  <!-- Light Orange (Background) -->
+    <color name="rac_text">#E78C30</color>        <!-- Dark Orange (Text) -->
+    <color name="wl_background">#FFECEC</color>  <!-- Light Red (Background) -->
+    <color name="wl_text">#D9534F</color>        <!-- Dark Red (Text) -->
+    <color name="available_green">#4CAF50</color>      <!-- Green -->
+    <color name="filling_yellow">#FFC107</color>       <!-- Yellow -->
+    <color name="few_red">#F44336</color>              <!-- Red -->
+
+    <color name="racYellow">#FFD560</color>        <!-- Yellow -->
+    <color name="waitingRed">#FF8178</color>       <!-- Red -->
+    <color name="grayDark">#9E9E9E</color>         <!-- Grey -->
+    <color name="defaultCard">#FFFFFF</color>      <!-- Optional default -->
+
+
+    <!-- Text Colors -->
+    <color name="text_selected">#007AFF</color>  <!-- Blue for selected date -->
+    <color name="text_unselected">#333333</color> <!-- Dark Gray for unselected dates -->
+
+    <!-- Background Colors -->
+    <color name="light_gray">#E0E0E0</color>  <!-- Light gray background for month -->
+    <color name="date_background">#F8F8F8</color> <!-- Background for date items -->
+
+    <!-- Availability Colors -->
+    <color name="brown">#8B5A2B</color>  <!-- Brown for "Few Seats" and availability bar -->
+    <color name="orange">#D9853B</color> <!-- Orange for "Filling Fast" -->
+
+    <!-- Stroke and Divider Colors -->
+    <color name="divider">#D3D3D3</color> <!-- Light divider line -->
+</resources>

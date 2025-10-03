@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602590323565",
+    "project_id": "gorail1",
+    "storage_bucket": "gorail1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602590323565:android:7048c5732e6329ff56b064",
+        "android_client_info": {
+          "package_name": "com.example.gorail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQLDH2CPIS557dSBr_ITlj9BTvYIptX18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

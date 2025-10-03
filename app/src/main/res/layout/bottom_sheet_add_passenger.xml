@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+
+
+        <!-- Your actual passenger form inside this -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Passenger Details"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_close"
+            android:contentDescription="Close"
+        android:clickable="true"
+        android:focusable="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Name Field -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Enter Full Name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColorHint="#BBBBBB" />
+
+        <!-- Age and Gender in a row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <!-- Age Field -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Enter age"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:textColorHint="#BBBBBB" />
+            </LinearLayout>
+
+            <!-- Gender Field -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <RadioButton
+                        android:id="@+id/radioMale"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/gender_selector"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="Male"
+                        android:textColor="@drawable/gender_text_selector"
+                        android:textSize="14sp"
+                        android:layout_margin="4dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/gender_selector"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="Female"
+                        android:textColor="@drawable/gender_text_selector"
+                        android:textSize="14sp"
+                        android:layout_margin="4dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioOthers"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/gender_selector"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="Others"
+                        android:textColor="@drawable/gender_text_selector"
+                        android:textSize="14sp"
+                        android:layout_margin="4dp" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Berth Preference -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Berth preference"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecting a berth preference does not guarantee allotment of preferred berth."
+            android:textColor="#AAAAAA"
+            android:textSize="12sp" />
+        <RadioGroup
+            android:id="@+id/berthRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioLower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lower" />
+
+            <RadioButton
+                android:id="@+id/radioMiddle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Middle" />
+
+            <RadioButton
+                android:id="@+id/radioUpper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upper" />
+
+            <RadioButton
+                android:id="@+id/radioSideLower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Side Lower" />
+
+            <RadioButton
+                android:id="@+id/radioSideUpper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Side Upper" />
+
+            <RadioButton
+                android:id="@+id/radioNoBerth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="No berth preference" />
+        </RadioGroup>
+
+
+
+
+
+        <!-- Nationality Field -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Nationality"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNationality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_border"
+            android:padding="12dp"
+            android:text="INDIAN"
+            android:textAllCaps="true" />
+
+        <!-- Save Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_bg"
+            android:padding="14dp"
+            android:text="SAVE DETAILS"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
