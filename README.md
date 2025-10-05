@@ -1,4 +1,4 @@
-# GoRail – Your Journey Our Priority
+![dashboard1](https://github.com/user-attachments/assets/ccf3bff0-32e9-44a9-b834-e98159fa8bab)# GoRail – Your Journey Our Priority
 
 GoRail is a modern Android application designed to make train travel easier, faster, and more reliable.  
 It allows users to **search trains, check seat availability, view fares and track live running status** — all in one place.
@@ -41,12 +41,21 @@ The app fetches live train data using our APIs and displays key information like
 
 This allows travelers to easily compare trains and pick the best option.
 
+<img width="300" height="350" src="https://github.com/user-attachments/assets/925b712f-8400-47e3-9352-16b22cdacd0a"/> <img width="300" height="350" src="https://github.com/user-attachments/assets/c343f704-7d8a-4473-bfc7-f0353f330f2e"/>
+
+
+
+
 ---
 
 ### 💺 4. Real-Time Seat Availability and Fare
 Once trains are listed, users can instantly check **seat availability and fare details** for every class (1A, 2A, 3A, 3E, SL, etc.).  
 Data is fetched dynamically from **our API**, showing accurate results in real time.  
 Each class is displayed in a **horizontal scrollable card view** with color-coded availability indicators.
+
+<img width="300" height="350" src="https://github.com/user-attachments/assets/c343f704-7d8a-4473-bfc7-f0353f330f2e"/> <img width="300" height="350" src="https://github.com/user-attachments/assets/6cb08fd9-a8d5-426f-a2e9-72e701ccfe52"/>
+
+
 
 ---
 
@@ -57,6 +66,9 @@ The app includes a **horizontal date selection bar** that displays the current a
 - When a new date is selected, train data updates automatically.  
   This design gives users a fast and intuitive way to compare availability across multiple days.
 
+<img width="300" height="350" src="https://github.com/user-attachments/assets/30596921-6471-4444-854f-9312a5475b54"/>
+
+
 ---
 
 ### 🚀 6. Live Train Running Status(Backend is complete Frontend is in developement right now)
@@ -65,7 +77,8 @@ The feature shows:
 - Current location of the train
 - Departed, Current, and Upcoming stations
 - Actual Time and Delayed time
-  
+  <img width="400" height="500" alt="Screenshot 2025-10-05 145440" src="https://github.com/user-attachments/assets/a625c729-6d3a-40a2-8860-d125cd1020d5" />
+
 
 ---
 
@@ -75,6 +88,9 @@ GoRail features a **clean and interactive dashboard** that displays quick insigh
 - Shortcuts for different features
 - Upcoming journeys  
   It follows **Material Design principles**, providing a modern, fast, and visually appealing user experience.
+
+<img width="400" height="500" alt="Screenshot 2025-10-05 145440" src="https://github.com/user-attachments/assets/cff04e19-0374-4219-b7e0-7c1d07d41dbd" /><img width="400" height="500" alt="Screenshot 2025-10-05 145440" src="https://github.com/user-attachments/assets/60fd330c-d010-4359-91bd-5d1ba7890015" />
+
 
 ---
 
