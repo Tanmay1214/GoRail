@@ -145,7 +145,6 @@ Backend APIs are hosted on **Render**, providing dynamic seat availability, trai
 **Tanmay Shrivastava**
 **25UEC245**
 > Student First Year, ECE @ LNMIIT Jaipur  
-> Passionate Learning Android Developer | Python Enthusiast | Learning Web Developer
 
 ---
 
