@@ -27,9 +27,9 @@ Passengers can be added, edited, or deleted anytime — making future bookings f
 <img width="350" height="246" alt="Screenshot 2025-10-05 171037" src="https://github.com/user-attachments/assets/dedc6bac-9b96-462f-8060-f416ec1905dd" />
 
 <img width="300" height="350" src="https://github.com/user-attachments/assets/2901807b-999a-46e1-8cd4-2db9cdcbd917"/>
+<img width="300" height="350" src="https://github.com/user-attachments/assets/b5ae002d-edfe-41ea-bb6f-cae3db648158"/>
 
 ---
-
 ### 🚉 3. Train Search with Smart Filters
 Users can search for trains between any two stations by entering the **source, destination, and travel date**.  
 The app fetches live train data using our APIs and displays key information like:
