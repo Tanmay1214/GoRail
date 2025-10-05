@@ -11,9 +11,9 @@ It allows users to **search trains, check seat availability, view fares and trac
 GoRail ensures a safe and seamless sign-in experience using **Firebase Authentication** 
 Users can register and log in with their **mobile number via OTP verification** or just by signing in with google, eliminating the need for creating any passwords  
 Each user’s details (name, phone, email) are securely stored in **Firebase Realtime Database**, ensuring security.
-![login](https://github.com/user-attachments/assets/50148967-7fe8-400a-bf35-8ceeb338c0f4)
-![signup](https://github.com/user-attachments/assets/49ee831e-c8b2-41c0-8c67-68fbc89dafe8)
-<img width="661" height="246" alt="Screenshot 2025-10-05 171037" src="https://github.com/user-attachments/assets/dedc6bac-9b96-462f-8060-f416ec1905dd" />
+<img width="300" height="350" src="https://github.com/user-attachments/assets/50148967-7fe8-400a-bf35-8ceeb338c0f4"/> <img width="300" height="350" src="https://github.com/user-attachments/assets/49ee831e-c8b2-41c0-8c67-68fbc89dafe8"/>
+
+<img width="350" height="246" alt="Screenshot 2025-10-05 171037" src="https://github.com/user-attachments/assets/dedc6bac-9b96-462f-8060-f416ec1905dd" />
 
 
 ---
