@@ -77,6 +77,8 @@ The feature shows:
 - Current location of the train
 - Departed, Current, and Upcoming stations
 - Actual Time and Delayed time
+
+- 
   <img width="400" height="500" alt="Screenshot 2025-10-05 145440" src="https://github.com/user-attachments/assets/a625c729-6d3a-40a2-8860-d125cd1020d5" />
 
 
