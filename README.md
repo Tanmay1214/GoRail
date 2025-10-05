@@ -12,7 +12,7 @@ GoRail ensures a safe and seamless sign-in experience using **Firebase Authentic
 Users can register and log in with their **mobile number via OTP verification** or just by signing in with google, eliminating the need for creating any passwords 
 **Note:-If user opts for google sign in email verification is not required but if user opts for otp based phone authentication email verification is required**
 Each user’s details (name, phone, email,email verification status) are securely stored in **Firebase Realtime Database**, ensuring security.
-<img width="300" height="350" src="https://github.com/user-attachments/assets/50148967-7fe8-400a-bf35-8ceeb338c0f4"/> <img width="300" height="350" src="https://github.com/user-attachments/assets/49ee831e-c8b2-41c0-8c67-68fbc89dafe8"/><img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/cbc57082-af80-42d8-b489-e1183164965b" />
+<img width="300" height="350" src="https://github.com/user-attachments/assets/50148967-7fe8-400a-bf35-8ceeb338c0f4"/> <img width="300" height="350" src="https://github.com/user-attachments/assets/49ee831e-c8b2-41c0-8c67-68fbc89dafe8"/><img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/cbc57082-af80-42d8-b489-e1183164965b" />
 
 
 
