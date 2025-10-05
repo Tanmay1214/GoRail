@@ -25,6 +25,9 @@ GoRail also allows users to save passenger lists directly to Firebase, which are
 Passengers can be added, edited, or deleted anytime — making future bookings faster and effortless.
 
 <img width="350" height="246" alt="Screenshot 2025-10-05 171037" src="https://github.com/user-attachments/assets/dedc6bac-9b96-462f-8060-f416ec1905dd" />
+
+<img width="300" height="350" src="https://github.com/user-attachments/assets/2901807b-999a-46e1-8cd4-2db9cdcbd917"
+
 ---
 
 ### 🚉 3. Train Search with Smart Filters
