@@ -19,9 +19,11 @@ Each user’s details (name, phone, email) are securely stored in **Firebase Rea
 ---
 
 ### 2.👤 Profile Management(in Developement)& Passenger List
-Each user will have a personalized **profile section** where details like name, email,passenger list and mobile number will be shown.  
-GoRail also allows users to **save passenger lists** directly to Firebase, which are automatically loaded whenever the user opens the booking screen.  
-Passengers can be **added, edited, or deleted** anytime — making future bookings faster and effortless.
+
+Each user will have a personalized profile section where details like name, email, passenger list, and mobile number will be shown.
+GoRail also allows users to save passenger lists directly to Firebase, which are automatically loaded whenever the user opens the booking screen.
+Passengers can be added, edited, or deleted anytime — making future bookings faster and effortless.
+
 <img width="350" height="246" alt="Screenshot 2025-10-05 171037" src="https://github.com/user-attachments/assets/dedc6bac-9b96-462f-8060-f416ec1905dd" />
 ---
 
