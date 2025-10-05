@@ -128,8 +128,7 @@ Backend APIs are hosted on **Render**, providing dynamic seat availability, trai
 ## 💡 Future Enhancements
 - Add PNR status tracking
 - Profile Management System
-- Add Train Running Status Feature UI
-- 
+- Train Running Status Feature Frontend
 
 ---
 
