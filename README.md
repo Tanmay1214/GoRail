@@ -1,4 +1,4 @@
-![dashboard1](https://github.com/user-attachments/assets/ccf3bff0-32e9-44a9-b834-e98159fa8bab)# GoRail – Your Journey Our Priority
+# GoRail – Your Journey Our Priority
 
 GoRail is a modern Android application designed to make train travel easier, faster, and more reliable.  
 It allows users to **search trains, check seat availability, view fares and track live running status** — all in one place.
