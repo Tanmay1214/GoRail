@@ -136,9 +136,9 @@ Backend APIs are hosted on **Render**, providing dynamic seat availability, trai
 
 ---
 ### NOTE:- Due to some limitations Phone based SMS OTPs are not generating so for testing purpose you can use the given credentials for signing up:- 
-Phone number:- +919999999999
-OTP:- 123456
-Email:- Any email can be used
+- Phone number:- +919999999999
+- OTP:- 123456
+- Email:- Any email can be used
 
 
 ## 🧑‍💻 Developed By
