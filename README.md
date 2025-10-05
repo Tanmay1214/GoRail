@@ -1,4 +1,4 @@
-# GoRail – Your Journey Our Priority
+<img width="1453" height="468" alt="image" src="https://github.com/user-attachments/assets/e1c59d5d-5eb8-44a2-b9c9-f43c4bbb22a6" /># GoRail – Your Journey Our Priority
 
 GoRail is a modern Android application designed to make train travel easier, faster, and more reliable.  
 It allows users to **search trains, check seat availability, view fares and track live running status** — all in one place.
@@ -9,9 +9,11 @@ It allows users to **search trains, check seat availability, view fares and trac
 
 ###  🔐 1. Secure OTP Login and Firebase Authentication
 GoRail ensures a safe and seamless sign-in experience using **Firebase Authentication** 
-Users can register and log in with their **mobile number via OTP verification** or just by signing in with google, eliminating the need for creating any passwords  
-Each user’s details (name, phone, email) are securely stored in **Firebase Realtime Database**, ensuring security.
-<img width="300" height="350" src="https://github.com/user-attachments/assets/50148967-7fe8-400a-bf35-8ceeb338c0f4"/> <img width="300" height="350" src="https://github.com/user-attachments/assets/49ee831e-c8b2-41c0-8c67-68fbc89dafe8"/>
+Users can register and log in with their **mobile number via OTP verification** or just by signing in with google, eliminating the need for creating any passwords 
+**Note:-If user opts for google sign in email verification is not required but if user opts for otp based phone authentication email verification is required**
+Each user’s details (name, phone, email,email verification status) are securely stored in **Firebase Realtime Database**, ensuring security.
+<img width="300" height="350" src="https://github.com/user-attachments/assets/50148967-7fe8-400a-bf35-8ceeb338c0f4"/> <img width="300" height="350" src="https://github.com/user-attachments/assets/49ee831e-c8b2-41c0-8c67-68fbc89dafe8"/><img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/cbc57082-af80-42d8-b489-e1183164965b" />
+
 
 
 
@@ -131,6 +133,11 @@ Backend APIs are hosted on **Render**, providing dynamic seat availability, trai
 - Train Running Status Feature Frontend
 
 ---
+### NOTE:- Due to some limitations Phone based SMS OTPs are not generating so for testing purpose you can use the given credentials for signing up:- 
+Phone number:- +919999999999
+OTP:- 123456
+Email:- Any email can be used
+
 
 ## 🧑‍💻 Developed By
 **Tanmay Shrivastava**
